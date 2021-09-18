@@ -9,6 +9,3 @@
 
 # Persist subsystem
 /mnt/vendor/persist/subsys(/.*)?                                  u:object_r:persist_subsys_file:s0
-
-# SPI IR
-/dev/spidev0.1                                                    u:object_r:spidev_device:s0
